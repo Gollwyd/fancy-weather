@@ -1,0 +1,56 @@
+
+
+.pricing-switcher {
+  text-align: center;
+  display: inline-flex;
+}
+.pricing-switcher .fieldset {
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(76, 82, 85, 0.4);
+}
+
+.pricing-switcher input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.pricing-switcher label {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  font-weight: bold;
+  line-height: 44px;
+  cursor: pointer;
+  color: rgba(174, 181, 185, 0.5);
+  transition-delay: .1s;
+  transition: color 0.3s ease;
+}
+
+
+.pricing-switcher input[type="radio"]:checked + label {
+  color: #FFFFFF;
+
+}
+.pricing-switcher .switch {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 44px;
+  width: 44px;
+  background-color:rgba(174, 181, 185, 0.5);
+  transition: transform 0.3s;
+  border-radius: 4px;
+}
+
+.pricing-switcher input[type="radio"]:checked + label + .switch,
+.pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
+   -webkit-transform: translateX(44px);
+  -moz-transform: translateX(44px);
+  -ms-transform: translateX(44px);
+  -o-transform: translateX(44px);
+  transform: translateX(44px);
+}
