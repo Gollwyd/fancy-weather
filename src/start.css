@@ -1,0 +1,17 @@
+div.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+div.start button {
+
+}
+div.start p {
+  padding: 30px;
+  text-align: center;
+}
+div.start h1 {
+  text-align: center;
+}
