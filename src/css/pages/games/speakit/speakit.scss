@@ -1,0 +1,459 @@
+/* @import 'filename.css'; */ /* импорт другого файла стилей (например, шрифта) - вебпак соберет и его*/
+/* @import '~normalize.css'; */ /* тильда означает, что пакет нужно искать в node_modules */
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.speak__container{
+    font-size: 18px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url('../../../../img/common/backgrounds/background5.jpg');
+    background-size: cover;
+}
+.speak__container {
+    
+    h1 {
+        text-align: center;
+    }
+    .button:active, .start__button:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .start{
+       
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        padding-top: 20%;
+        box-sizing: border-box;
+        /* transition: opacity 0.5s; */
+    }
+    .allGames__playMods {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        & > div {
+            margin:0 auto;
+           display: flex;
+           flex-direction: column;
+           width: 270px;
+           text-align: center;
+           justify-content: space-between;
+           padding: 10px;
+           box-sizing: border-box;
+        }
+        .levels__container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }   
+    }
+    
+    
+    
+    .start__elements{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 35%;
+        margin: auto auto;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .page__title{
+        font-size: 2.5rem;
+    }
+    
+    .page__description{
+        font-size: 1.8rem;
+    
+    }
+    .repeat__button{
+        padding: 10px 0px;
+        width: 120px;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        background-color: lightskyblue;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    
+    
+    .repeat__button:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+    }
+    
+    .hidden{
+        display: none;
+    }
+    
+    .game{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+       
+    }
+    
+    
+    
+    .lev{
+        height: 10px;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: lightskyblue;
+        box-sizing: border-box;
+        margin-right: 10px;
+        transition: width 0.5s ease-out;
+        box-shadow: 0px 0px 5px -2px;
+    
+    }
+    
+    .lev:hover{
+        background-color: mediumslateblue;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .active{
+        background-color: mediumslateblue;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+    .repeat__container p{
+       text-align: center;
+    }
+    
+    .pic__container{
+        width: 100%;
+        
+        margin: 0 auto;
+    }
+    
+    .pic__image{
+        width: 400px;
+        height: 100%;
+        /* background-image: url(../img/words/cry.jpg); */
+        background-repeat: no-repeat;
+        margin: 20px auto;
+    }
+    
+    .pic__image img{
+        display: block;
+        box-shadow: 0px 0px 4px 0px;
+        margin: 0 auto;
+    }
+    
+    
+    .pic__translate{
+        
+        font-size: 1.8rem;
+        text-align: center;
+        width: 250px;
+        margin: 20px auto;
+    }
+    
+    .translation-correct{
+        border: 2px solid lightgreen;
+    }
+    
+    .translation-error{
+        border: 2px solid red;
+    }
+    
+    .words__container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .word{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        width: 18%;
+        min-width: 200px;
+        height: 70px;
+        margin-bottom: 30px;
+        border: 1px solid grey;
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+        position: relative;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 4px;
+        background-color: RGBA(200, 220, 137, 0.75);
+    }
+    
+    .word:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    }
+    
+    .pushed{
+        background-color: lightgray;
+    }
+    
+    .correct{
+        background-color: lightgreen;
+    }
+    
+    .word__icon{
+        width: 30px;
+        height: 30px;
+        background-image: url(../../../../img/games/speakit/play.svg);
+        background-size: cover;
+    }
+    .word__word {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .word__english, .word__transcription{
+        
+    }
+    
+    .word__transcription {
+        font-size: 15px;
+        color: grey;
+    }
+    
+    .buttons__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        font-size: 2.0rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .button{
+        height: 70px;
+        background-color: orange;
+        border-radius: 4px;
+        box-sizing: border-box;
+        line-height: 70px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        margin: 10px;
+    }
+    
+    .button__restart{
+        flex-grow: 1;
+      
+    }
+    
+    .button__speak{
+        flex-grow: 2;
+    }
+    
+    .button__results{
+        flex-grow: 1;
+    }
+    .button__next{
+        flex-grow: 1;
+    }
+    .button__startScreen2 {
+        flex-grow: 1;
+    }
+    .button__startScreen {
+        flex-grow: 1;
+    }
+    
+    .button__repeat{
+        flex-grow: 1;
+    }
+    
+    .button:hover{
+        cursor: pointer;
+        background-color: mediumslateblue;
+    }
+    
+    .activated{
+        cursor: default;
+        background-color: mediumslateblue;
+    }
+    
+    .results{
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .result__buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        font-size: 2.0rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .button__global{
+        flex-grow: 2;
+    }
+    
+    .results__header{
+        text-align: center;
+        font-size: 2.0rem;
+    }
+    
+    .global__header{
+        text-align: center;
+        font-size: 2.0rem;
+    }
+    
+    .results__errors{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    
+    .results__words{
+        max-width: 500px;
+        margin: 20px auto;
+        font-size: 1.4rem;
+    }
+    
+    .stat__word{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        text-align: left;
+        border-bottom: 1px solid lightgray;
+        height: 40px;
+    }
+    
+    .stat__word:hover{
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    
+    .stat__word .text, .stat__word .transcription, .stat__word .translate{
+        width: 30%;
+        align-self: center;
+    }  
+    
+    .stat__word .sound__icon{
+        width: 10%;
+        background-image: url(../../../../img/games/speakit/play.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .global{
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    .global__header{
+        text-align: center;
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+    }
+    
+    .global__results{
+        width: 100%;
+    }
+    .global__results table{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .global__results table td, .global__results table th{
+        border: 1px solid lightgray;
+    }
+    
+    .global__results table th{
+        font-size: 1.8rem;
+    }
+    
+    .global__results table td{
+        font-size: 1.4rem;
+    }
+    
+    .td__datetime, .td__errors{
+        width: 15%;
+    }
+    
+    .td__words{
+        width: 65%;
+    }
+    
+    .global__buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        font-size: 2.0rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+   .button__stats{
+        flex-grow: 1;
+    }
+    
+    @media (max-width: 768px){
+        .buttons__container{
+            justify-content: center;
+        }
+    
+        .button{
+            width: 80%;
+        }
+    }
+    
+    @media (max-width: 510px){
+        .results__words{
+            font-size: 1rem;
+            margin: 5px auto;
+        }
+        .pic__image{
+            width: auto;
+            background-size: 100%;
+            margin-top: 20px;
+            img{
+                width: 90%;
+            }
+        }
+        .buttons__container{
+            justify-content: center;
+        }
+        
+        .button{
+            width: 80%;
+        }
+    
+        .words__container{
+            justify-content: center;
+        }
+    
+        .word{
+            width: 100%;
+        }
+    }
+}
+
+
