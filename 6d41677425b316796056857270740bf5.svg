@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 40"  enable-background="new 0 0 36 40" xml:space="preserve">
+<ellipse fill="#4593C9" cx="7.5" cy="23" rx="7.5" ry="9.5"/>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2.0262" y1="30.8451" x2="23.9738" y2="30.8451">
+			<stop  offset="0.5102" style="stop-color:#F2B997"/>
+			<stop  offset="0.5357" style="stop-color:#EBAA87"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M21.4,37.6c-1.8,1.3-5,2.4-7.2,2.4h-3.4c-2.2,0-4.6-1.7-5.2-3.8l-1.3-3.9C3.6,30.2,3,27,3,25.1
+			c0-1.9,1.8-3.4,4-3.4h18c2.2,0,4,1.8,4,4V28c0,2.2-1.4,5.1-3.2,6.4L21.4,37.6z"/>
+	</g>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-1.8491" y1="15.5" x2="24.1509" y2="15.5">
+		<stop  offset="0.5102" style="stop-color:#F2B997"/>
+		<stop  offset="0.5357" style="stop-color:#EBAA87"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M29,26H3V14.1C3,5.5,8.8,5,16,5h0c7.2,0,13,0.5,13,9.1V26z"/>
+	<path fill="#987A5D" d="M23,9.6c0,0-2.3,2.4-12.8,2.4C0.1,12,1,3,1,3s4.3,0,14.4,0c2.2,0,3.9,0,3.9,0L23,9.6z"/>
+	<path fill="#987A5D" d="M27,25h3V15h-5v8C25,24.1,25.9,25,27,25z"/>
+	<g>
+		<g>
+			<path fill="#987A5D" d="M21,3h-6v6h6c2.2,0,4,1.8,4,4l0,5h5l0-6C30,7,26,3,21,3z"/>
+		</g>
+	</g>
+	<path fill="#EBAA87" d="M29,28h-3v-4c0-1.7,1.3-3,3-3h0c1.7,0,3,1.3,3,3v1C32,26.7,30.7,28,29,28z"/>
+	<path fill="#CC856F" d="M14,27h-4c0,1.1,0.9,2,2,2S14,28.1,14,27z"/>
+	
+		<line fill="none" stroke="#987A5D" stroke-width="2.129" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.8" y1="18" x2="20" y2="18"/>
+	
+		<line fill="none" stroke="#987A5D" stroke-width="2.129" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3.3" y1="18" x2="8.2" y2="18"/>
+	<path fill="none" stroke="#7B4C46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M4.8,21.7c0,0,0.5,0.6,1.5,0.6c0.8,0,1.7-0.6,1.7-0.6"/>
+	<path fill="none" stroke="#7B4C46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M15.5,21.7c0,0,0.5,0.6,1.5,0.6c0.8,0,1.7-0.6,1.7-0.6"/>
+	<path fill="none" stroke="#7B4C46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M11,33c0,0,0.6,0,2.4,0c2.9,0,4.6-2.3,4.6-2.3"/>
+</g>
+<ellipse fill="#4593C9" cx="28.5" cy="24.5" rx="7.5" ry="9.5"/>
+<ellipse fill="#2B66AB" stroke="#46A8D8" stroke-width="2" stroke-miterlimit="10" cx="30" cy="24.5" rx="4" ry="5.5"/>
+<g>
+	<defs>
+		<polygon id="SVGID_3_" points="9,0 9,3 20,3 20,22 32,22 32,0 		"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_4_)">
+		<path fill="none" stroke="#2B66AB" stroke-width="3" stroke-miterlimit="10" d="M6.5,29.5V12.1c0-5.9,4.8-10.6,10.6-10.6h2.7
+			c5.9,0,10.6,4.8,10.6,10.6v17.2"/>
+	</g>
+</g>
+
+</svg>
